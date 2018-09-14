@@ -1,0 +1,821 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+/* GLOBAL */
+
+.clear {
+    clear: both;
+}
+
+.color {
+    color: rgb(71, 71, 196);
+}
+
+.current {
+    color: rgb(71, 71, 196);
+}
+
+.font {
+    font-size: 17px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+.clear {
+    clear: both;
+    display: table;
+    content: "";
+}
+
+
+/* HEADER */
+
+.shell-header {
+    width: 100%;
+    background-color: rgb(198, 223, 243);
+    margin: 0;
+    padding: 20px 40px;
+    border-bottom: 1px solid rgb(229, 143, 143);
+}
+
+#logo {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+    padding: 0px;
+    margin: 0;
+    float: left;
+}
+
+#logo h1 {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* NAVIGATION */
+
+nav {
+    float: right;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 10px;
+}
+
+nav ul li a {
+    color: #222;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: rgb(71, 71, 196);
+    text-decoration: underline;
+}
+
+
+/*BACK TO TOP BUTTON*/
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 99;
+    font-size: 20px;
+    border: 0.05px solid #fff;
+    outline: none;
+    background-color: rgb(240, 46, 46);
+    color: white;
+    padding: 12px 15px 3px 15px;
+    margin: 0;
+    text-align: center;
+}
+
+#myBtn:hover {
+    background-color: #555;
+}
+
+
+/* MAIN-SECTTION */
+
+.main-image {
+    width: 100%;
+    height: auto;
+    margin-bottom: 100px;
+    padding: 0;
+    object-fit: fill;
+}
+
+.main-image img {
+    width: 100%;
+    height: auto;
+}
+
+
+/* SECTION-1*/
+
+.section-1 {
+    width: 80%;
+    margin: 0 auto 100px auto;
+    padding: 0;
+    overflow: hidden;
+    border-bottom: 1px solid rgb(229, 143, 143);
+}
+
+.section-float {
+    margin: 0;
+    padding: 50px 0;
+    float: left;
+    width: 50%;
+}
+
+.section-1 h2 {
+    margin: 0 auto 20px auto;
+    padding: 0;
+    font-size: 30px;
+    font-weight: 200;
+    text-align: center;
+    width: 100%;
+}
+
+.section-1 p {
+    margin: 0;
+    padding: 0px;
+    text-align: center;
+    width: 100%;
+}
+
+.section-1 img {
+    float: right;
+    width: 40%;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* SECTION-2 */
+
+.section-2 {
+    background-color: rgb(198, 223, 243);
+    text-align: center;
+    margin: 0;
+    padding: 60px 50px;
+    border-bottom: 1px solid rgb(229, 143, 143);
+    border-top: 1px solid rgb(229, 143, 143);
+}
+
+.section-2 h1 {
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0;
+    font-size: 30px;
+    font-weight: 400;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', ;
+    margin: 0 auto 30px auto;
+    text-transform: uppercase;
+}
+
+.section-2 p {
+    width: 40%;
+    margin: 0 auto 100px auto;
+    padding: 0;
+    line-height: 1.5em;
+}
+
+.section-2 .colomn {
+    width: 25%;
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+
+section .colomn p {
+    text-align: center;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* ABOUT PAGE */
+
+.content {
+    width: 100%;
+    padding: 20px 0;
+}
+
+.subcontent {
+    width: 30%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.subcontent img {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.subcontent p {
+    width: 100%;
+    margin: 15px 0;
+    text-align: center;
+}
+
+.subcontent h1 {
+    width: 100%;
+    margin: 0;
+    text-align: center;
+}
+
+
+/* SERICES */
+
+.section-3 h2 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 400;
+    padding: 0;
+}
+
+.section-3 .colomn {
+    width: 30%;
+    display: inline-block;
+    text-align: center;
+    margin: 5% 1.5%;
+}
+
+
+/* SERVICES */
+
+#services {
+    margin: 0;
+    padding: 70px;
+    width: 100%;
+    text-align: left;
+}
+
+.content-services {
+    width: 100%;
+    margin: 0 0 50px 0;
+    padding: 0;
+}
+
+.subcontent-1 {
+    width: 30%;
+    float: left;
+    padding: 0;
+    margin: 0 1.5%;
+}
+
+hr.line {
+    border-top: 1px solid rgb(229, 143, 143);
+    width: 60%;
+}
+
+.content-services img {
+    width: 100%;
+    height: 250px;
+    margin: 0 auto;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+.content-services p {
+    width: 100%;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+.content-services h1 {
+    width: 100%;
+    margin: 0;
+    margin-right: 0;
+    text-align: center;
+    padding: 20px;
+}
+
+
+/* CONTACT PAGE */
+
+#services-contact {
+    margin: 0;
+    padding: 40px;
+    width: 100%;
+    text-align: left;
+}
+
+hr.line-contact {
+    border-top: 1px solid rgb(229, 143, 143);
+    width: 60%;
+}
+
+.button_1 {
+    height: 38px;
+    background-color: #e8491d;
+    border: 0;
+    padding: 0 20px 0 20px;
+    color: white;
+}
+
+.dark {
+    width: 40%;
+    padding: 15px;
+    background-color: #35424a;
+    color: white;
+    margin: 30px auto;
+}
+
+.quote input,
+.quote textarea {
+    width: 90%;
+}
+
+
+/* SECTION-3 */
+
+section.section-3 {
+    background-color: rgb(240, 46, 46);
+    width: 100%;
+    padding: 0px;
+    margin: 0;
+    border-bottom: 1px solid rgb(229, 143, 143);
+}
+
+.info {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.info .section {
+    display: inline-block;
+    width: 30%;
+    color: #fff;
+    text-align: left;
+}
+
+.info p {
+    color: rgb(182, 177, 177);
+    text-align: center;
+    margin: 0px;
+    padding: 0;
+}
+
+.info h2 {
+    font-weight: 400;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0 0 10px 0;
+    padding: 0;
+}
+
+
+/* FOOTER */
+
+footer {
+    background-color: #333;
+    color: rgb(182, 177, 177);
+    width: 100%;
+    padding: 50px 0 0px 0;
+}
+
+.footer {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.footer ul {
+    list-style: none;
+    text-align: left;
+    padding: 0;
+    margin: 0
+}
+
+footer section {
+    display: inline-block;
+    width: 30%;
+    text-align: left;
+}
+
+footer h3 {
+    margin: 0;
+}
+
+footer p {
+    margin: 0;
+    padding: 0;
+    width: 80%;
+}
+
+.media {
+    margin: 30px 0 20px 100px;
+}
+
+footer section ul {
+    width: 250px;
+    margin: 0 auto;
+}
+
+ul.social li {
+    display: inline;
+    padding: 2%;
+    text-align: left;
+}
+
+ul.social li img {
+    height: 40px;
+}
+
+#copyright {
+    width: 100%;
+    text-align: center;
+    border-top: 1px solid #222;
+    line-height: 2em;
+    margin: 0;
+}
+
+
+/* ------MEDIA QUERIES-----*/
+
+@media screen and (max-width:740px) {
+    /* HEADER */
+    .shell-header {
+        width: 100%;
+        background-color: rgb(198, 223, 243);
+        margin: 0;
+        padding: 20px 10px;
+        border-bottom: 1px solid rgb(229, 143, 143);
+    }
+    #logo {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 35px;
+        text-decoration: none;
+        color: black;
+        padding: 0px;
+        margin: 0 auto;
+        text-align: center;
+        float: none;
+        display: block;
+        width: 80%;
+    }
+    /* NAVIGATION */
+    nav {
+        float: none;
+        margin: 0;
+        padding: 0;
+    }
+    nav ul {
+        list-style: none;
+        padding: 0;
+    }
+    nav ul li {
+        display: block;
+        padding: 10px;
+        text-align: center;
+    }
+    nav ul li a {
+        color: #222;
+        font-size: 20px;
+        text-decoration: none;
+        display: block;
+    }
+    nav ul li a:hover {
+        color: rgb(71, 71, 196);
+        text-decoration: underline;
+        background-color: #f0f0f0;
+        border-radius: 5px;
+    }
+    /*BACK TO TOP BUTTON*/
+    #myBtn {
+        display: none;
+        position: fixed;
+        bottom: 30px;
+        right: 30px;
+        z-index: 99;
+        font-size: 20px;
+        border: 0.05px solid #fff;
+        outline: none;
+        background-color: rgb(240, 46, 46);
+        color: white;
+        padding: 12px 15px 3px 15px;
+        margin: 0;
+        text-align: center;
+    }
+    #myBtn:active {
+        background-color: rgb(240, 46, 46);
+    }
+    #myBtn:hover {
+        background-color: #555;
+    }
+    /* MAIN-SECTTION */
+    .main-image {
+        width: 100%;
+        height: auto;
+        margin: 0px;
+        padding: 0;
+        object-fit: fill;
+    }
+    .main-image img {
+        width: 100%;
+        height: 220px;
+    }
+    /* SECTION-1*/
+    .section-1 {
+        width: 90%;
+        margin: 0 auto 100px auto;
+        padding: 0;
+        overflow: hidden;
+        border-bottom: 1px solid rgb(229, 143, 143);
+    }
+    .section-float {
+        margin: 0;
+        padding: 50px 0;
+        float: none;
+        width: 100%;
+    }
+    .section-1 h2 {
+        margin: 0 auto 20px auto;
+        padding: 0;
+        font-size: 30px;
+        font-weight: 200;
+        text-align: center;
+        width: 100%;
+    }
+    .section-1 p {
+        margin: 0;
+        padding: 0px;
+        text-align: center;
+        width: 100%;
+    }
+    .section-1 img {
+        float: none;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    /* SECTION-2 */
+    .section-2 {
+        background-color: rgb(198, 223, 243);
+        text-align: center;
+        margin: 0;
+        padding: 20px 10px;
+        border-bottom: 1px solid rgb(229, 143, 143);
+        border-top: 1px solid rgb(229, 143, 143);
+    }
+    .section-2 h1 {
+        width: 100%;
+        text-align: center;
+        margin: 0 auto;
+        padding: 0;
+        font-size: 25px;
+        font-weight: 400;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', ;
+        margin: 0 auto 30px auto;
+        text-transform: uppercase;
+    }
+    .section-2 p {
+        width: 100%;
+        margin: 0 auto 100px auto;
+        padding: 0;
+        line-height: 1.5em;
+    }
+    .section-2 .colomn {
+        width: 90%;
+        margin: 0 auto;
+        padding: 0;
+        float: none;
+    }
+    section .colomn p {
+        text-align: center;
+        width: 100%;
+        margin: 0 0 40px 0;
+        padding: 0;
+    }
+    /*SECTION-3 */
+    .section-3 h2 {
+        text-align: center;
+        font-size: 30px;
+        font-weight: 400;
+        padding: 0;
+    }
+    .section-3 .colomn {
+        width: 100%;
+        display: inline-block;
+        text-align: center;
+        margin: 0 auto;
+    }
+    /* ABOUT PAGE */
+    .content {
+        width: 100%;
+        padding: 20px 0;
+    }
+    .subcontent {
+        width: 90%;
+        margin: 0 auto;
+        padding: 0;
+    }
+    .subcontent img {
+        width: 100%;
+        margin: 0 auto;
+        padding: 0;
+    }
+    .subcontent p {
+        width: 100%;
+        margin: 15px 0;
+        text-align: center;
+    }
+    .subcontent h1 {
+        width: 100%;
+        margin: 0;
+        text-align: center;
+    }
+    /* SERVICES */
+    #services {
+        margin: 0;
+        padding: 30px 0px;
+        width: 100%;
+        text-align: center;
+    }
+    .content-services {
+        width: 100%;
+        margin: 0 0 50px 0;
+        padding: 0;
+    }
+    .subcontent-1 {
+        width: 100%;
+        float: none;
+        padding: 0;
+        margin: 0;
+    }
+    hr.line {
+        border-top: 1px solid rgb(229, 143, 143);
+        width: 60%;
+    }
+    .content-services img {
+        width: 100%;
+        height: 250px;
+        margin: 0 auto;
+        text-align: center;
+        margin: 0;
+        padding: 20px 0;
+    }
+    .content-services p {
+        width: 100%;
+        margin: 0;
+        padding: 20px 5px;
+        text-align: center;
+    }
+    .content-services h1 {
+        width: 100%;
+        margin: 0;
+        margin-right: 0;
+        text-align: center;
+        padding: 20px 5px;
+    }
+    /* CONTACT PAGE */
+    #services-contact {
+        margin: 0;
+        padding: 20px;
+        width: 100%;
+        text-align: left;
+    }
+    hr.line-contact {
+        border-top: 1px solid rgb(229, 143, 143);
+        width: 60%;
+    }
+    .button_1 {
+        height: 38px;
+        background-color: #e8491d;
+        border: 0;
+        padding: 0 20px 0 20px;
+        color: white;
+        width: 100%;
+    }
+    .dark {
+        width: 100%;
+        padding: 15px;
+        background-color: #35424a;
+        color: white;
+        margin: 30px auto;
+    }
+    .quote input,
+    .quote textarea {
+        width: 100%;
+    }
+    /* SECTION-3 */
+    section.section-3 {
+        background-color: rgb(240, 46, 46);
+        width: 100%;
+        padding: 0px;
+        margin: 0;
+        border-bottom: 1px solid rgb(229, 143, 143);
+    }
+    .info {
+        width: 90%;
+        margin: 0 auto;
+        padding: 20px 0;
+        text-align: center;
+    }
+    .info .section {
+        display: inline-block;
+        width: 100%;
+        color: #fff;
+        text-align: left;
+        margin: 0 0 20px 0;
+    }
+    .info p {
+        color: rgb(182, 177, 177);
+        text-align: center;
+        margin: 0px;
+        padding: 0;
+    }
+    .info h2 {
+        font-weight: 400;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        margin: 0 0 10px 0;
+        padding: 0;
+    }
+    /* FOOTER */
+    footer {
+        background-color: #333;
+        color: rgb(182, 177, 177);
+        width: 100%;
+        padding: 30px 10px;
+    }
+    .footer {
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .footer ul {
+        list-style: none;
+        text-align: left;
+        padding: 0;
+        margin: 0
+    }
+    footer section {
+        display: inline-block;
+        width: 100%;
+        text-align: none;
+    }
+    footer h3 {
+        margin: 0;
+    }
+    footer p {
+        margin: 0;
+        padding: 0;
+        width: 80%;
+    }
+    .media {
+        margin: 0;
+        padding: 20px 10px
+    }
+    footer section ul {
+        width: 250px;
+        margin: 0 auto;
+    }
+    ul.social li {
+        display: inline;
+        padding: 2%;
+        text-align: left;
+    }
+    ul.social li img {
+        height: 40px;
+    }
+    #copyright {
+        width: 100%;
+        text-align: center;
+        border-top: 1px solid #222;
+        line-height: 2em;
+        margin: 0;
+        padding: 0;
+    }
+}
